@@ -1,0 +1,75 @@
+.hero{
+        /* height:"100vh";
+        width:"100%" ; */
+    /* position: absolute; */
+}
+.hero-mid{
+    /* position: relative; */
+}
+img{
+    height:"650vh";
+    width:"100%" ;
+    object-fit: cover;
+}
+.Hero-Text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.hero-mid h1{
+    /* padding-top: -10rem !important; */
+    margin-bottom: 6rem;
+    /* As we are changing the contents of Hero-Text */
+}
+.Hero-Text h1{
+    font-size: 3rem;
+    font-weight: 1000;
+   background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     
+    /* Meaning of above tag */
+}
+.Hero-Text p{
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px 10px 5px 5px;
+    margin-bottom: 20px;
+    
+
+}
+.Hero-Text .show{
+text-decoration: none;
+background:white;
+color: black;
+padding: 1rem 2rem;
+border-radius: 6px;
+font-size: 1.1rem;
+font-weight: bold;
+letter-spacing: 2px;
+/* margin-top: 10px; */
+
+
+}
+
+.Hero-Text .hide{
+    display: none;
+}
+
+@media screen and (max-width: 555px){
+    .Hero-Text h1{
+        padding: 10px 20px;
+    }
+    .Hero-Text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+    .Hero-Text .show{
+        padding: .6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        }
+    
+}
+  

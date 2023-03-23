@@ -1,0 +1,25 @@
+.AboutContainer h1{
+padding-bottom: 1rem;
+}
+.AboutContainer p{
+    padding-bottom: 2rem;
+}
+.AboutContainer{
+    width: 60%;
+    margin-left: 20%;
+    text-align: start;
+}
+@media screen and (max-width:850px){
+    .AboutContainer{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .AboutContainer p{
+        font-size: 0.8rem;
+        font-style:italic;
+    }
+    .AboutContainer h1{
+        font-size: 1rem;
+       font-style:oblique;
+        }
+}
